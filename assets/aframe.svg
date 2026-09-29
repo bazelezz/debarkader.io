@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1100" role="img" aria-label="A-frame cabin among pines at dusk beside the Ob Sea">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0.2" y2="1">
+      <stop offset="0" stop-color="#68716e"/>
+      <stop offset="0.53" stop-color="#454f4f"/>
+      <stop offset="1" stop-color="#263737"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5b7471"/>
+      <stop offset="0.48" stop-color="#344f50"/>
+      <stop offset="1" stop-color="#202f31"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="0.85" y2="1">
+      <stop offset="0" stop-color="#7c918b"/>
+      <stop offset="0.45" stop-color="#465f5d"/>
+      <stop offset="1" stop-color="#1f3334"/>
+    </linearGradient>
+    <linearGradient id="light" x1="0" y1="0" x2="0.16" y2="1">
+      <stop offset="0" stop-color="#e9cba0" stop-opacity="0.92"/>
+      <stop offset="0.55" stop-color="#c69265" stop-opacity="0.72"/>
+      <stop offset="1" stop-color="#745645" stop-opacity="0.36"/>
+    </linearGradient>
+    <linearGradient id="wood" x1="0" y1="0" x2="1" y2="0.4">
+      <stop offset="0" stop-color="#4f4137"/>
+      <stop offset="0.54" stop-color="#6b513f"/>
+      <stop offset="1" stop-color="#342f2c"/>
+    </linearGradient>
+    <linearGradient id="roof" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3d4140"/>
+      <stop offset="0.52" stop-color="#222c2e"/>
+      <stop offset="1" stop-color="#172527"/>
+    </linearGradient>
+    <radialGradient id="moonGlow">
+      <stop offset="0" stop-color="#e9d7bc" stop-opacity="0.45"/>
+      <stop offset="0.45" stop-color="#e9d7bc" stop-opacity="0.1"/>
+      <stop offset="1" stop-color="#e9d7bc" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="warmGlow">
+      <stop offset="0" stop-color="#e7ba80" stop-opacity="0.27"/>
+      <stop offset="1" stop-color="#e7ba80" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="softBlur"><feGaussianBlur stdDeviation="13"/></filter>
+    <clipPath id="frontGlass"><path d="M484 354 306 776H663Z"/></clipPath>
+    <clipPath id="scene"><rect width="1000" height="1100"/></clipPath>
+    <g id="pine" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M0 0V390" stroke="#182b2b" stroke-width="13"/>
+      <path d="M0 22-55 129H55Z M0 80-68 202H68Z M0 152-85 285H85Z M0 224-98 361H98Z" fill="#1e3432" stroke="#1e3432" stroke-width="7"/>
+      <path d="M0 38-34 106M0 90 38 164M0 161-47 252M0 235 50 323" stroke="#48615a" stroke-opacity="0.32" stroke-width="5"/>
+    </g>
+    <g id="distantPine" fill="#344947">
+      <path d="M0 100 22 29 44 100H37L23 59 10 100Z"/>
+      <path d="M18 35 22 0 26 35Z"/>
+    </g>
+  </defs>
+
+  <g clip-path="url(#scene)">
+    <!-- A quiet dusk, low horizon, and a soft moon. -->
+    <rect width="1000" height="1100" fill="url(#sky)"/>
+    <ellipse cx="755" cy="283" rx="229" ry="229" fill="url(#moonGlow)"/>
+    <circle cx="757" cy="279" r="47" fill="#e5d8c1" opacity="0.88"/>
+    <circle cx="748" cy="268" r="44" fill="#e7dbc7" opacity="0.43" filter="url(#softBlur)"/>
+    <path d="M0 498C171 476 252 530 384 503s211-44 323-13 194 6 293-15v157H0Z" fill="#3c5150" opacity="0.52"/>
+    <path d="M0 572C176 547 289 585 421 554c155-36 260 20 398-5 80-14 127-10 181-18v135H0Z" fill="#314747" opacity="0.77"/>
+    <path d="M0 605c129-11 207 15 324 1 128-14 193-17 299-4 122 15 246-7 377-7v125H0Z" fill="#2a4140"/>
+    <g opacity="0.76">
+      <use href="#distantPine" x="0" y="530" transform="translate(0 0) scale(1.5 1.1)"/>
+      <use href="#distantPine" x="134" y="552"/>
+      <use href="#distantPine" x="165" y="558" transform="translate(0 0) scale(1.1 1)"/>
+      <use href="#distantPine" x="884" y="529"/>
+      <use href="#distantPine" x="931" y="523"/>
+      <use href="#distantPine" x="968" y="545"/>
+    </g>
+    <path d="M0 636c198-13 333 2 504-3 164-5 292 6 496-3v294H0Z" fill="url(#water)"/>
+    <g fill="none" stroke="#b9ad96" stroke-linecap="round" opacity="0.3">
+      <path d="M10 669h147m601-2h220M42 702h194m548 2h182M729 748h211M30 755h184M61 804h120m613-5h168M775 858h162" stroke-width="2"/>
+      <path d="M679 651h139m-14 28h170m-268 70h111m-76 31h191M39 694h68m-56 37h173" stroke-width="1"/>
+    </g>
+    <path d="M670 706c43 18 101 21 177 8M703 732c40 16 89 18 137 6M722 769c42 11 80 11 116 7" fill="none" stroke="#d5bf9e" stroke-width="3" opacity="0.17"/>
+
+    <!-- Shoreline trees frame the structure without hiding its glazing. -->
+    <path d="M0 748c145-14 265 27 364 16 116-12 149-4 268 3 128 8 244-44 368-17v350H0Z" fill="#243735"/>
+    <path d="M0 854c150-8 241 20 358 6 128-16 244-9 354 0 128 10 203-18 288-13v253H0Z" fill="#1f302e"/>
+    <use href="#pine" transform="translate(102 332) scale(1.42 1.46)" opacity="0.85"/>
+    <use href="#pine" transform="translate(21 446) scale(1.07 1.13)" opacity="0.68"/>
+    <use href="#pine" transform="translate(930 271) scale(1.27 1.67)" opacity="0.91"/>
+    <use href="#pine" transform="translate(1023 442) scale(0.91 1.2)" opacity="0.82"/>
+
+    <!-- A-frame: deep roof plane and the lit timber-and-glass gable. -->
+    <path d="M482 261 565 244 833 805 739 826Z" fill="url(#roof)"/>
+    <path d="M553 270 816 807" fill="none" stroke="#68716c" stroke-width="4" opacity="0.53"/>
+    <path d="M590 343 807 806M632 429 793 807M680 535 782 809" fill="none" stroke="#65706a" stroke-width="2" opacity="0.24"/>
+    <path d="M741 798 831 787l24 77-117 6Z" fill="#423d34"/>
+    <path d="M738 817 838 813" stroke="#b8845d" stroke-width="4" opacity="0.67"/>
+    <path d="M742 834 844 831M742 851 849 848" stroke="#aa805e" stroke-width="2" opacity="0.48"/>
+
+    <path d="M483 285 239 810h486Z" fill="url(#wood)"/>
+    <path d="M484 354 306 776H663Z" fill="url(#glass)"/>
+    <g clip-path="url(#frontGlass)">
+      <rect x="291" y="344" width="390" height="452" fill="url(#light)"/>
+      <ellipse cx="484" cy="708" rx="229" ry="238" fill="url(#warmGlow)"/>
+      <path d="M298 653c95-12 177-9 271-3 66 4 94-9 127-17" fill="none" stroke="#c9c8ae" stroke-width="3" opacity="0.26"/>
+      <path d="M386 541 461 373l-45 280-80 125h-27Z" fill="#c4d2c7" opacity="0.2"/>
+      <path d="M550 376 635 570l-42 218h-36Z" fill="#eef0d7" opacity="0.12"/>
+      <path d="M317 669h343v125H317Z" fill="#614f42" opacity="0.44"/>
+      <path d="M355 719c12-23 30-30 58-30h103c25 0 42 16 53 40l11 59H335Z" fill="#3b403b"/>
+      <path d="M369 704c8-20 28-29 49-29h92c17 0 31 10 40 27l-13 16H383Z" fill="#897b67"/>
+      <path d="M341 750h243v18H341Z" fill="#bc8b61" opacity="0.55"/>
+      <path d="M443 340v178m0 35v241" stroke="#2c3735" stroke-width="8"/>
+      <path d="M529 341v177m0 35v242" stroke="#2c3735" stroke-width="8"/>
+      <path d="M276 542h419" stroke="#302f2b" stroke-width="15"/>
+      <path d="M289 659h394" stroke="#302f2b" stroke-width="8"/>
+      <path d="M444 542h84" stroke="#b8845d" stroke-width="3" opacity="0.8"/>
+      <path d="M301 657h350" stroke="#c39067" stroke-width="3" opacity="0.47"/>
+      <path d="M483 382v36" stroke="#2f3632" stroke-width="3"/>
+      <path d="M465 422c0-8 8-14 18-14s18 6 18 14Z" fill="#d9af79"/>
+      <ellipse cx="483" cy="425" rx="47" ry="18" fill="#dfb47e" opacity="0.22" filter="url(#softBlur)"/>
+      <path d="M287 786h398" stroke="#e4a76e" stroke-width="13" opacity="0.33" filter="url(#softBlur)"/>
+    </g>
+    <path d="M483 291 238 811M483 291l246 520" fill="none" stroke="#20292a" stroke-width="45" stroke-linejoin="round"/>
+    <path d="M483 294 245 805M483 294l239 511" fill="none" stroke="#705a47" stroke-width="20" stroke-linejoin="round"/>
+    <path d="M483 299 253 796M483 299l232 497" fill="none" stroke="#b8845d" stroke-width="3" opacity="0.75"/>
+    <path d="M235 810h506" stroke="#171f20" stroke-width="30"/>
+    <path d="M244 803h482" stroke="#a47a57" stroke-width="9"/>
+    <path d="M272 784h428" stroke="#4d392e" stroke-width="7"/>
+
+    <!-- Elevated terrace and a narrow path to the water. -->
+    <path d="M188 811 771 811 873 879 119 879Z" fill="#6e5542"/>
+    <path d="M188 811h583l102 69H119Z" fill="none" stroke="#b8845d" stroke-width="7"/>
+    <path d="M152 855h674M201 826h585M259 812l-98 67M334 812l-55 67M409 812l-13 67M484 812l26 67M559 812l69 67M634 812l111 67M707 812l157 67" stroke="#b58b65" stroke-width="3" opacity="0.55"/>
+    <path d="M118 880h756l-18 37H133Z" fill="#2d302b"/>
+    <path d="M355 916h309l51 35H305Z" fill="#6b5541"/>
+    <path d="M310 947h403l55 37H257Z" fill="#4f4638"/>
+    <path d="M257 983h511l61 37H190Z" fill="#343c36"/>
+    <path d="M0 904c79-18 194-8 275 0 121 12 210-9 340-6 151 3 270-19 385-5v207H0Z" fill="#1d302d" opacity="0.89"/>
+    <path d="M19 1023c146-46 287-40 424-14 164 31 346-4 557-27v118H0Z" fill="#192b29"/>
+    <g fill="none" stroke="#607767" stroke-linecap="round" opacity="0.57">
+      <path d="M69 1034q7-43 12-56m-12 56q-15-39-22-43m108 84q1-60 20-88m-20 88q-14-57-33-70m734 29q-2-51-15-75m15 75q17-40 34-54M924 1071q-8-64-23-83m23 83q18-56 36-69" stroke-width="3"/>
+      <path d="M34 1087q4-23 12-39m36 39q10-37 24-48m123 42q-8-26-21-37m575 42q-3-29-18-46m129 39q8-34 21-45" stroke-width="2"/>
+    </g>
+    <g fill="#aa8a66" opacity="0.64">
+      <circle cx="81" cy="978" r="3"/><circle cx="175" cy="989" r="2"/><circle cx="890" cy="981" r="3"/><circle cx="933" cy="1027" r="2"/>
+    </g>
+  </g>
+</svg>
